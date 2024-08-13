@@ -1,0 +1,8 @@
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.csproj.AssemblyReference.cache
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.AssemblyInfoInputs.cache
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.AssemblyInfo.cs
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.csproj.CoreCompileInputs.cache
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.RazorAssemblyInfo.cache
+C:\Users\BisanCo\Desktop\.NET\BookManagement\BookManagement\obj\Debug\net7.0\BookManagement.RazorAssemblyInfo.cs

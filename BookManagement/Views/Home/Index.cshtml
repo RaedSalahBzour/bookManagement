@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Book>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container">
+    <div class="row row-cols-1  row-cols-md-3 g-4">
+        @foreach (var book in Model)
+        {
+            var photoPath = "~/images/" + (book.PhotoPath ?? "noimage.jpg");
+
+            <div class="col">
+                <div class="card h-100 m-3">
+                    <div class="card-header">
+                        <h3>@book.Title</h3>
+                    </div>
+                    <img class="card-img-top" src="@photoPath" height="200rem" alt="book Image" asp-append-version="true">
+                    <div class="card-body">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a asp-controller="home" asp-action="details" asp-route-id="@book.Id" class="btn btn-primary m-1">View</a>
+                        <a asp-action="edit" asp-controller="home" asp-route-id="@book.Id" class="btn btn-primary m-1">Edit</a>
+                        <a href="#" class="btn btn-danger m-1">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
