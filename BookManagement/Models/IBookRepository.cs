@@ -1,12 +1,12 @@
 ﻿namespace BookManagement.Models
 {
-    public class IBookRepository
+    public interface IBookRepository
     {
-        public Book GetBook(int id);
-        public  IEnumerable<Book> GetAll();
-        public Book Add(Book Book);
-        public  Book Update(Book BookChanges);
-        public  Book Delete(int id);
+          Book GetBook(int id);
+          IEnumerable<Book> GetAll();
+          Book Add(Book Book);
+          Book Update(Book BookChanges);
+          Book Delete(int id);
     }
 
 }
